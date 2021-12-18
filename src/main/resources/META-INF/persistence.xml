@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd"
+             version="3.0">
+    <persistence-unit name="altair">
+<jta-data-source>jdbc/webpoollaba</jta-data-source>
+        <class>ua.mk.cora.laba134.enities.HorseEntity</class>
+        <class>ua.mk.cora.laba134.enities.ScheduleEntity</class>
+        <class>ua.mk.cora.laba134.enities.ServiceEntity</class>
+        <class>ua.mk.cora.laba134.enities.StaffEntity</class>
+        <class>ua.mk.cora.laba134.enities.TypescheduleEntity</class>
+        <class>ua.mk.cora.laba134.enities.UsersEntity</class>
+        <class>ua.mk.cora.laba134.enities.WorkersEntity</class>
+        <exclude-unlisted-classes>false</exclude-unlisted-classes>
+        <properties>
+            <property name="jakarta.persistence.schema-generation.database.action" value="create"/>
+            <property name="toplink.jdbc.url" value="jdbc:mysql://localhost:3306/horsealtair"/>
+            <property name="toplink.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+            <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/horsealtair"/>
+            <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
+            <property name="openjpa.ConnectionURL" value="jdbc:mysql://localhost:3306/horsealtair"/>
+            <property name="openjpa.ConnectionDriverName" value="com.mysql.jdbc.Driver"/>
+            <property name="eclipselink.jdbc.url" value="jdbc:mysql://localhost:3306/horsealtair"/>
+            <property name="eclipselink.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+        </properties>
+    </persistence-unit>
+</persistence>

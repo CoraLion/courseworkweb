@@ -1,0 +1,129 @@
+.content-block {
+    margin-top: 80px;
+}
+
+.horsection {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1400px;
+    overflow: hidden;
+    font-size: 0;
+}
+
+.dateclass {
+    position: relative;
+    display: block;
+    height: 100px;
+    background-color: #d3ee8c;
+}
+
+.horseitem {
+    position: relative;
+    background-color: #d3ee8c;
+    display: block;
+    height: 271px;
+    margin-top: 10px;
+}
+
+.horseitem:nth-of-type(even){
+    background: #b6ce7c;
+}
+
+.horsel {
+    display: inherit;
+    height: 270px;
+}
+
+
+#horseheader {
+    display: block;
+}
+
+.horseimg {
+    display: inline-block;;
+    position: relative;
+    width: 60%;
+}
+
+.horseinfo {
+    display: inline-block;;
+    position: absolute;
+    width: 40%;
+}
+
+.colhorse {
+    width: 100%;
+    font-size: 20px;
+    color: #262f0d;
+}
+
+#hname {
+    display: block;
+    position: relative;
+    padding: 10px 25px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.4em;
+    color: #262f0d;
+}
+
+.horseul {
+    text-align: center;
+}
+
+.himg {
+    filter: grayscale(.75);
+}
+
+.bthorse {
+    display: inline-block;
+    position: relative;
+    margin: auto;
+}
+
+.bt {
+    font: italic small-caps 16px/2 cursive;
+    display: block;
+    height: 40px;
+    width: 200px;
+    background-color: #262f0d;
+    color: azure;
+}
+
+.bt:hover {
+    background-color: #334210;
+}
+
+.formh {
+    padding: 35px;
+    height: 100%;
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+#namef {
+    text-align: center;
+    height: 100%;
+    background-color: #ddeeb5;
+    font: italic small-caps 16px/2 cursive;
+    color: #262f0d;
+    width: 100%;
+}
+
+.btf {
+    font: italic small-caps 10px cursive;
+    display: block;
+    height: 20px;
+    width: 100px;
+    background-color: #262f0d;
+    color: azure;
+}
+
+.btf:hover {
+    background-color: #334210;
+}

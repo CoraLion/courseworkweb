@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+
+
+    <welcome-file-list>
+        <welcome-file>worksch</welcome-file>
+    </welcome-file-list>
+
+    <servlet>
+        <servlet-name>inputuser</servlet-name>
+        <servlet-class>ua.mk.cora.laba134.servlets.UserServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>inputuser</servlet-name>
+        <url-pattern>/inputuser</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>mailmsg</servlet-name>
+        <servlet-class>ua.mk.cora.laba134.servlets.ContactServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>mailmsg</servlet-name>
+        <url-pattern>/mailmsg</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>worksch</servlet-name>
+        <servlet-class>ua.mk.cora.laba134.servlets.IndexServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>worksch</servlet-name>
+        <url-pattern>/worksch</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>traintype</servlet-name>
+        <servlet-class>ua.mk.cora.laba134.servlets.TrainerServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>traintype</servlet-name>
+        <url-pattern>/traintype</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>horseserv</servlet-name>
+        <servlet-class>ua.mk.cora.laba134.servlets.horseservlets.HorseServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>horseserv</servlet-name>
+        <url-pattern>/horseserv</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>classhorse</servlet-name>
+        <servlet-class>ua.mk.cora.laba134.servlets.horseservlets.ClassHorseServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>classhorse</servlet-name>
+        <url-pattern>/classhorse</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>breedhorse</servlet-name>
+        <servlet-class>ua.mk.cora.laba134.servlets.horseservlets.BreedHorseServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>breedhorse</servlet-name>
+        <url-pattern>/breedhorse</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>horsefound</servlet-name>
+        <servlet-class>ua.mk.cora.laba134.servlets.horseservlets.FoundHorseServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>horsefound</servlet-name>
+        <url-pattern>/horsefound</url-pattern>
+    </servlet-mapping>
+
+    <context-param>
+        <param-name>host</param-name>
+        <param-value>smtp.gmail.com</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>port</param-name>
+        <param-value>587</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>user</param-name>
+        <param-value>vikakyharenko2001</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>pass</param-name>
+        <param-value>ygutamunoelzhrgk</param-value>
+    </context-param>
+
+</web-app>

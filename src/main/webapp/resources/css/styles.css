@@ -1,0 +1,67 @@
+body {
+    font: italic small-caps 16px/2 cursive;
+    text-decoration: none;
+    background-color: #ddeeb5;
+}
+
+body::-webkit-scrollbar {
+    background-color: #334210;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #80934c;
+
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #66753c;
+
+}
+
+
+th {
+    font: italic small-caps 16px/2 cursive;
+    background-color: #607c1e;
+    color: azure;
+    text-align: center;
+}
+
+a {
+    color: azure;
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+td {
+    font: italic small-caps 16px/2 cursive;
+    background-color: #83a828;
+    color: azure;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    height: 171px;
+}
+
+h1 {
+    color: azure;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, .50);
+}

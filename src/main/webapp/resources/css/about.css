@@ -1,0 +1,141 @@
+.aboutdiv {
+    height: 780px;
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.aboutcont {
+    width: 100%;
+    background-color: #899b5c;
+    padding: 15px;
+    word-wrap: break-word;
+}
+
+.maintext {
+    text-align: center;
+    color: azure;
+}
+
+.atext {
+    text-align: center;
+    position: relative;
+}
+
+.atext:hover {
+    color: #84ec74;
+    text-shadow: rgba(0,0,0,.50);
+}
+
+#adiv {
+    height: 100px;
+    display: flex;
+    width: 100%;
+    position: relative;
+    flex-direction: column;
+}
+
+#imageabout {
+
+    height: 350px;
+    width: 100%;
+    position: relative;
+}
+
+#darkmess {
+    background: rgba(0,0,0, 0.3);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#window {
+    width: 600px;
+    height: 450px;
+    text-align: center;
+    padding: 15px;
+    border: 10px #334210;
+    color: azure;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: #8bb02c;
+}
+
+
+#darkmess:target {display: block;}
+
+.close {
+    display: inline-block;
+    color: black;
+    padding: 0 12px;
+    margin: 10px;
+    text-decoration: none;
+    background: #d5f393;
+    font-size: 15px;
+    cursor:pointer;
+}
+
+
+.close:hover {background: #8ca643;}
+
+.inputtext {
+    color: azure;
+    display: flex;
+    width: 100%;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.inputtext:hover {
+    color: #b0d754;
+}
+
+.mailmsg {
+    margin: 27px;
+}
+
+#textout {
+    padding: 10px;
+    margin: 0 0 0 10px;
+    height: 78px;
+    width: 524px;
+}
+
+#name {
+    padding: 10px;
+    margin-left: 40px;
+}
+
+#gmail {
+    padding: 10px;
+    margin: 10px;
+}
+
+.submit {
+    font: italic small-caps 16px/2 cursive;
+    display: inline-block;
+    color: black;
+    padding: 0 12px;
+    margin: 10px;
+    text-decoration: none;
+    background: #d5f393;
+    font-size: 15px;
+    cursor:pointer;
+}
+
+.submit:hover {background: #8ca643;}
+
+#imagea {
+    display: block;
+    position: center;
+}
